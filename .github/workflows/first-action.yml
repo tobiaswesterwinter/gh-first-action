@@ -2,7 +2,7 @@ name: First Workflow
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: windows-latest
+    runs-on: windows-2025-vs2026
     steps:
       - name: Print greeting
         run: echo "Hello World!"
